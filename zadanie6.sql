@@ -1,0 +1,1 @@
+create table tab_koniec as select ST_Union(geom) from public."Exports"
